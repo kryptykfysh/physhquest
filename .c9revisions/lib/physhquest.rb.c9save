@@ -1,0 +1,6 @@
+{"ts":1360710322267,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1360710331667,"patch":[[{"diffs":[[1,"puts 'Herro!'"]],"start1":0,"start2":0,"length1":0,"length2":13}]],"length":13,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1360810628209,"patch":[[{"diffs":[[-1,"puts 'Herro!'"],[1,"module PhyshQuest\n\nend"]],"start1":0,"start2":0,"length1":13,"length2":22}]],"length":22,"saved":false}
+{"ts":1360810642774,"patch":[[{"diffs":[[0,"hysh"],[-1,"Q"],[1,"q"],[0,"uest"]],"start1":8,"start2":8,"length1":9,"length2":9}]],"length":22,"saved":false}
+{"ts":1360810860536,"patch":[[{"diffs":[[0,"shquest\n"],[1,"  class Game\n  \n  end"],[0,"\nend"]],"start1":10,"start2":10,"length1":12,"length2":33}]],"length":43,"saved":false}
+{"ts":1360810923491,"patch":[[{"diffs":[[-1,"module Physhquest\n  class Game\n  \n  end\nend"],[1,"require 'physhquest/game'"]],"start1":0,"start2":0,"length1":43,"length2":25}]],"length":25,"saved":false}
