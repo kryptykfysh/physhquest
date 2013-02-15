@@ -1,6 +1,11 @@
 #!/usr/bin/envy ruby
 
 lib_path = File.join(File.expand_path(File.dirname(__FILE__)), '..', 'lib')
+ROOT_DIR = File.expand_path('../')
 $LOAD_PATH.unshift(lib_path) unless $LOAD_PATH.include?(lib_path)
 
 require 'physhquest'
+
+game = Physhquest::Game.new
+
+game.start

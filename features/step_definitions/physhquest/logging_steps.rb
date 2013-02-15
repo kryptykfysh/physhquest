@@ -7,7 +7,8 @@ When /^I start the application$/ do
 end
 
 Then /^a log file should be created$/ do
-  LOG = Logger.new(File.expand_path('../../log', 'physhquest.log'), 10, 1024000)
+	log_file = File.open("log/physhquest.log", 'a+')
+  LOG = Logger.new(log_file, 10, 1024000)
 end
 
 Then /^the log file should capture data$/ do
