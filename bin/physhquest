@@ -1,4 +1,4 @@
-#!/usr/bin/envy ruby
+#!/usr/bin/env ruby
 
 lib_path = File.join(File.expand_path(File.dirname(__FILE__)), '..', 'lib')
 ROOT_DIR = File.expand_path('../')
